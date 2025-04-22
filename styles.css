@@ -3,7 +3,11 @@ header {
     justify-content: center;
     align-items: center;
     margin-top: 60px;
-    color: rgb(16, 205, 54); 
+    color: rgb(7, 219, 49); 
+}
+
+h1 {
+    font-size: 2.6rem;
 }
 
 .container {
@@ -11,7 +15,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 100px;
+    margin: 80px;
 }
 
 .container input {
@@ -19,8 +23,10 @@ header {
     padding: 10px;
     border-radius: 10px;
     font-size: 1.6rem;
+    height: 80px;
     text-align: center; /* Centers text horizontally */
     vertical-align: middle; /* Ensures vertical alignment */
+    background-color: rgb(7, 219, 49);
 }
 
 .container button {
