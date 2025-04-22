@@ -30,16 +30,25 @@ function generatePassword(length, includeLowercase, includeUppercase, includeNum
     return password;
 }
 
-const passwordLength = 12;
-const includeLowercase = true;
-const includeUppercase = true;
-const includeNumbers = true;
-const includeSymbols = true;
+const button = document.querySelector("button");
 
-const password = generatePassword(passwordLength, 
-                                  includeLowercase, 
-                                  includeUppercase, 
-                                  includeNumbers, 
-                                  includeSymbols);
+button.addEventListener("click", () => {
+    const passwordLength = 12;
+    const includeLowercase = true;
+    const includeUppercase = true;
+    const includeNumbers = true;
+    const includeSymbols = true;
 
-console.log(`Generated password: ${password}`);
+    const password = generatePassword(passwordLength, 
+                                      includeLowercase, 
+                                      includeUppercase, 
+                                      includeNumbers, 
+                                      includeSymbols);
+
+    console.log(`Generated password: ${password}`);
+
+    
+});
+
+
+
