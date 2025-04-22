@@ -47,7 +47,8 @@ button.addEventListener("click", () => {
 
     console.log(`Generated password: ${password}`);
 
-    
+    const inputField = document.querySelector("input");
+    inputField.value = password;
 });
 
 
