@@ -18,7 +18,9 @@ header {
     margin-bottom: 40px;
     padding: 10px;
     border-radius: 10px;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    text-align: center; /* Centers text horizontally */
+    vertical-align: middle; /* Ensures vertical alignment */
 }
 
 .container button {
